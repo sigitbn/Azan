@@ -137,7 +137,7 @@ public class TimeCalculator {
             transit + adjustments.getZuhr() / MINUTE_IN_HOUR_DOUBLE,
             asr(transit, latitude, declinationDegrees, this.asrRatio) + adjustments.getAsr() / MINUTE_IN_HOUR_DOUBLE,
             maghrib(transit, latitude, declinationDegrees, this.height) + adjustments.getMaghrib() / MINUTE_IN_HOUR_DOUBLE,
-            isha(transit, latitude, declinationDegrees, angle.getFairAngle()) + adjustments.getIsha() / MINUTE_IN_HOUR_DOUBLE);
+            isha(transit, latitude, declinationDegrees, angle.getgetIshaAngle()) + adjustments.getIsha() / MINUTE_IN_HOUR_DOUBLE);
     }
 
 }
